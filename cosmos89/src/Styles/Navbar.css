@@ -1,0 +1,17 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.link {
+  text-decoration: none;
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  color: #434755;
+}
+
+.link:hover {
+  border-bottom: 4px solid #f6c142;
+  transition: 0.2s;
+}

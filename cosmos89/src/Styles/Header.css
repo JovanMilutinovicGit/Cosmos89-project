@@ -1,0 +1,41 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: inset 0px -1px 0px rgba(0, 0, 0, 1);
+}
+.header-1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 70%;
+  margin: 30px;
+}
+.header-2 {
+  display: flex;
+  align-items: flex-end;
+  width: 70%;
+  padding: 5px;
+}
+.phone-number {
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+}
+.logo-name {
+  display: flex;
+  align-items: center;
+  font-family: "Montserrat", sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+}
+.social-media {
+  display: flex;
+  justify-content: space-between;
+  width: 90px;
+}
