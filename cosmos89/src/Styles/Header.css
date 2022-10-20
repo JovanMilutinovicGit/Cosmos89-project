@@ -22,6 +22,7 @@
   width: 70%;
   padding: 5px;
 }
+
 .phone-number {
   font-family: "Inter", sans-serif;
   font-weight: 600;
@@ -38,4 +39,7 @@
   display: flex;
   justify-content: space-between;
   width: 90px;
+}
+.social-media i {
+  cursor: pointer;
 }
