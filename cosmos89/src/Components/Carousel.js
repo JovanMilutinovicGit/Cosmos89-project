@@ -5,10 +5,6 @@ import dataImages from "../Assets/carousel-images/Images.js";
 const Carousel = () => {
   const [currentPhoto, setCurrentPhoto] = useState(0);
 
-  const previousPhoto = () => {
-    setCurrentPhoto(currentPhoto - 1);
-  };
-
   return (
     <div className="carousel">
       <div className="left-arrow">

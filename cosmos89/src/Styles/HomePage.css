@@ -45,3 +45,26 @@
   left: 50%;
   transform: translate(-50%, -50%);
 }
+
+.discover {
+  width: 100%;
+  height: 834px;
+  background-color: #fffaeb;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.discover-title {
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+.discover-title p {
+  font-family: "Montserrat";
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 60px;
+  text-align: center;
+  color: #12182a;
+}

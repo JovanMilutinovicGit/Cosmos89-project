@@ -1,0 +1,10 @@
+.discover-nvb {
+  border-bottom: 2px solid #e6e1d4;
+}
+.listOfDiscCards {
+  display: flex;
+  justify-content: space-between;
+  width: 1086px;
+  height: 290px;
+  margin: 20px 0;
+}
