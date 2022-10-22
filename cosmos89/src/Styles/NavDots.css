@@ -1,0 +1,15 @@
+.navdots {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+.nav-dot {
+  border-radius: 100%;
+  background-color: #595d6a;
+  width: 11px;
+  height: 11px;
+}
+
+.nav-dot:hover {
+  background-color: white;
+}

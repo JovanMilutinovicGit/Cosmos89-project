@@ -2,7 +2,6 @@
   display: flex;
   justify-content: space-between;
   width: 100%;
-  border: 2px solid red;
 }
 .link {
   text-decoration: none;

@@ -26,17 +26,39 @@
 #left {
   position: absolute;
   top: 0;
+  left: 0;
 }
 #right {
   position: absolute;
   bottom: 0;
   right: 0;
 }
+
+.carousel-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 50%;
+  height: 350px;
+  z-index: 2;
+}
+
+.brain-symbol {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
 .brain-symbol img {
   height: 500px;
   width: 500px;
 }
-
+/*
 .carousel-content {
   position: absolute;
   width: 50%;
@@ -45,7 +67,7 @@
   left: 50%;
   transform: translate(-50%, -50%);
 }
-
+*/
 .discover {
   width: 100%;
   height: 834px;
@@ -53,6 +75,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: space-around;
 }
 
 .discover-title {
@@ -67,4 +90,56 @@
   line-height: 60px;
   text-align: center;
   color: #12182a;
+}
+
+.dots-menu-1 {
+  width: 13%;
+}
+
+.dots-menu-2 {
+  width: 14%;
+  height: 6%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.lft-arrow,
+.rght-arrow {
+  width: 13%;
+  height: 3%;
+  padding: 15px 15px;
+  border-radius: 100%;
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.cnt-dots {
+  width: 50%;
+}
+
+.popular-courses {
+  width: 100%;
+  height: 641px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+.courses-title {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 48px;
+  line-height: 60px;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #12182a;
+}
+.list-courses {
+  width: 80%;
+  height: 450px;
 }
