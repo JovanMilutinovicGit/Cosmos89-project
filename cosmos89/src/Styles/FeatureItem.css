@@ -1,0 +1,55 @@
+.feature-item {
+  display: flex;
+  justify-content: space-around;
+  margin: 160px 0;
+}
+
+.feature-item-left {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 400px;
+}
+
+.lamp-icon {
+  width: 60px;
+}
+.feature-title {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 48px;
+  line-height: 60px;
+  letter-spacing: 0.02em;
+  color: #12182a;
+}
+.feature-desc {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+  letter-spacing: 0.02em;
+  color: #000000;
+}
+
+.feature-item-right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.image-feature {
+  position: absolute;
+  width: 470px;
+  height: 438px;
+}
+.back-img-feature {
+  width: 540px;
+  height: 505px;
+}
+.feature-reverse {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row-reverse;
+}

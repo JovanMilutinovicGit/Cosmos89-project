@@ -1,0 +1,9 @@
+.learn-more button {
+  width: 159px;
+  height: 50px;
+  background-color: #5db5f9;
+  color: white;
+  border-radius: 100px;
+  border: none;
+  cursor: pointer;
+}

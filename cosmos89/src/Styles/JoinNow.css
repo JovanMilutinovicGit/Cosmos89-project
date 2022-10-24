@@ -1,0 +1,17 @@
+.join-now button {
+  width: 141px;
+  height: 50px;
+  background-color: #f5fbff;
+  border: 1px solid #5db5f9;
+  border-radius: 100px;
+  cursor: pointer;
+}
+.join-now-blue button {
+  width: 141px;
+  height: 50px;
+  background-color: #5db5f9;
+  border: 1px solid #5db5f9;
+  color: white;
+  border-radius: 100px;
+  cursor: pointer;
+}

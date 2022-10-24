@@ -5,21 +5,25 @@ import fourth from "../carousel-images/how-seos-the-sales-team-can-drive-busines
 
 const dataImages = [
   {
+    id: 1,
     text: "How To Achieve Financial Freedom?",
     text2: "Financial Literacy",
     img: firstImage,
   },
   {
+    id: 2,
     text: "Fundamentals of Finances & Money ",
     text2: "Financial Literacy",
     img: secondImg,
   },
   {
+    id: 3,
     text: "Basics of Budgeting & Income Flow",
     text2: "Financial Literacy",
     img: thridImg,
   },
   {
+    id: 4,
     text: "Unlock Your Potential & Reach Your Dream",
     text2: "Financial Literacy",
     img: fourth,

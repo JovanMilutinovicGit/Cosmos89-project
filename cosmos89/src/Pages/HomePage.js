@@ -1,5 +1,4 @@
 import React from "react";
-import banner from "../Assets/banner.png";
 import "../Styles/HomePage.css";
 import leftPic from "../Assets/brain symbol left.png";
 import rightPic from "../Assets/brain symbol right.png";
@@ -8,12 +7,19 @@ import CardsList from "../Components/CardsList";
 import { NavDots } from "../Components/NavDots";
 import Browse from "../Components/Buttons/Browse";
 import ListCardsOfCourses from "../Components/ListCardsOfCourses";
+import bannerHeroSection from "../Assets/banner-hero-section.png";
+import CarouselBanner from "../Components/CarouselBanner";
+import ListFeatures from "../Components/ListFeatures";
+import aboveFooterPhoto from "../Assets/above-footer.png";
+import wave1 from "../Assets/wave1.png";
+import wave2 from "../Assets/wave2.png";
+import JoinNow from "../Components/Buttons/JoinNow";
 
 const HomePage = () => {
   return (
     <div className="home-page">
       <div className="hero-section-home-page">
-        <img src={banner} />
+        <img src={bannerHeroSection} />
         <div className="brain-symbol">
           <div className="hero-section-text">
             <p>We Help You Grow & Succeed</p>
@@ -54,6 +60,25 @@ const HomePage = () => {
         </div>
         <div className="list-courses">
           <ListCardsOfCourses />
+        </div>
+      </div>
+      <div className="banner-carousel">
+        <CarouselBanner />
+      </div>
+      <div className="features">
+        <ListFeatures />
+      </div>
+      <div className="above-footer">
+        <div className="waves">
+          <img className="waves1" src={wave1} />
+          <img className="waves2" src={wave2} />
+        </div>
+        <div className="above-footer-content">
+          <p className="start-learning">Start Learning Today!</p>
+          <p className="info">
+            A great place for those who want a grow and succeed in their life.
+          </p>
+          <JoinNow color="blue" />
         </div>
       </div>
     </div>

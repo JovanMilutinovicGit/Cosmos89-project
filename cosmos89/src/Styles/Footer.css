@@ -1,0 +1,79 @@
+.footer-container {
+  width: 100%;
+  height: 100%;
+  background-color: #12182a;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  height: 420px;
+}
+
+.footer-container-2 {
+  display: flex;
+  justify-content: space-around;
+  width: 80%;
+  height: 80%;
+}
+.logo-cosmos {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 27px;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+  width: 75%;
+}
+.name-social-media {
+  width: 20%;
+  color: white;
+  height: 20%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.footer-menu {
+  display: flex;
+  width: 40%;
+  height: 40%;
+}
+
+.footer-menu-1,
+.footer-menu-2 {
+  width: 50%;
+  color: white;
+}
+
+ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+  list-style-type: none;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+
+  color: #ffffff;
+}
+
+.privacy {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 25%;
+  height: 60%;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #ffffff;
+}
