@@ -11,7 +11,7 @@ const Footer = () => {
             <img src={cosmosLogo} width="26px" />
             <p>Cosmos89</p>
           </div>
-          <div className="social-media">
+          <div className="f-social-media">
             <i className="fa fa-facebook"></i>
             <i className="fa fa-instagram"></i>
             <i className="fa fa-linkedin"></i>

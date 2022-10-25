@@ -53,3 +53,47 @@
   justify-content: space-around;
   flex-direction: row-reverse;
 }
+
+@media screen and (max-width: 420px) {
+  .feature-item,
+  .feature-reverse {
+    display: flex;
+    flex-direction: column-reverse;
+    width: 100%;
+    height: 667px;
+    align-items: center;
+  }
+  .feature-item-left {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .feature-title {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 800;
+    font-size: 30px;
+    line-height: 37px;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #12182a;
+  }
+  .feature-desc {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #000000;
+  }
+  .image-feature {
+    width: 250px;
+    height: 260px;
+  }
+  .back-img-feature {
+    width: 250px;
+    height: 290px;
+  }
+}

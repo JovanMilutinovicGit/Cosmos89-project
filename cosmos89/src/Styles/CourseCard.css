@@ -15,3 +15,10 @@
   border-radius: 20px;
   box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
 }
+@media screen and (max-width: 420px) {
+  .course-card {
+    width: 162px;
+    height: 162px;
+    margin: 20px 20px;
+  }
+}

@@ -2,6 +2,7 @@ import React from "react";
 import Navbar from "./Navbar.js";
 import cosmosLogo from "../Assets/cosmos-logo.png";
 import "../Styles/Header.css";
+import menuLogo from "../Assets/menu-icon.png";
 
 const Header = () => {
   return (
@@ -23,6 +24,7 @@ const Header = () => {
           <i className="fa fa-instagram"></i>
           <i className="fa fa-linkedin"></i>
         </div>
+        <img className="menu-icon" src={menuLogo} />
       </div>
       <div className="header-2">
         <Navbar />

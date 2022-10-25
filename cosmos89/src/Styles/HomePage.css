@@ -22,6 +22,12 @@
   text-align: center;
   letter-spacing: 0.02em;
   color: #ffffff;
+  height: auto;
+  overflow: hidden;
+}
+.hero-section-text p {
+  transform: translateX(1300px);
+  animation: slideLeft 0.4s ease-in-out forwards 0.4s;
 }
 #left {
   position: absolute;
@@ -157,20 +163,20 @@
   left: 0;
   transform: translate(0, -100%);
   opacity: 0.3;
+  height: 20%;
+  width: 100%;
 }
 .waves .waves2 {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-end;
-  width: 100%;
-}
-.waves .waves1 {
   position: absolute;
-  top: 90%;
+  top: 100%;
   left: 0;
-  transform: translate(0, -110%);
+  transform: translate(0, -100%);
   width: 100%;
 }
+.waves1 {
+  position: absolute;
+}
+
 .above-footer-content {
   position: absolute;
   display: flex;
@@ -201,3 +207,104 @@
   text-align: center;
   color: #ffffff;
 }
+
+@keyframes slideLeft {
+  0% {
+    transform: translateX(1300px);
+  }
+  100% {
+    transform: translateX(0px);
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .hero-section-text {
+    width: 354px;
+    font-size: 34px;
+  }
+  #left {
+    width: 250px;
+    height: 350px;
+  }
+  #right {
+    width: 250px;
+    height: 350px;
+  }
+  .carousel-content {
+    width: 90%;
+    height: 200px;
+  }
+  .discover {
+    overflow: hidden;
+  }
+  .discover-title {
+    width: 90%;
+  }
+  .discover-title p {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 800;
+    font-size: 30px;
+    line-height: 37px;
+    text-align: center;
+    letter-spacing: 0.02em;
+  }
+  .cnt-dots {
+    width: 70%;
+  }
+  .dots-menu-2 {
+    width: 40%;
+  }
+  .popular-courses {
+    height: 768px;
+  }
+  .courses-title {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 800;
+    font-size: 30px;
+    line-height: 37px;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #12182a;
+    width: 80%;
+    padding: 30px 0;
+  }
+  .list-courses {
+    width: 100%;
+    height: 100%;
+  }
+  .start-learning {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 800;
+    font-size: 38px;
+    line-height: 46px;
+    text-align: center;
+    letter-spacing: 0.02em;
+  }
+  .info {
+    font-family: "DM Sans";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 28px;
+    text-align: center;
+  }
+  .above-footer-content {
+    width: 100%;
+  }
+
+  .waves .waves1 {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    transform: translate(0, -100%);
+    width: 100%;
+    height: 80px;
+  }
+  .waves .waves2 {
+    width: 100%;
+    height: 50px;
+  }
+} ;

@@ -8,3 +8,9 @@
   height: 290px;
   margin: 20px 0;
 }
+
+@media screen and (max-width: 420px) {
+  .listOfDiscCards {
+    overflow: hidden;
+  }
+}
