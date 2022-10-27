@@ -3,6 +3,7 @@ import "../Styles/About.css";
 import img from "../Assets/about-banner.png";
 import rec1 from "../Assets/Rectangle 61.png";
 import rec2 from "../Assets/Rectangle 59.png";
+import ListCardsFounders from "../Components/ListCardsFounders";
 
 const AbousUs = () => {
   return (
@@ -64,6 +65,19 @@ const AbousUs = () => {
               with your awesome products.
             </p>
           </div>
+        </div>
+        <div className="about-us-founders">
+          <p className="title">Our Awesome Founders</p>
+          <p className="desc">
+            Founder is a label with some amount of prestige. It carries
+            connotations of creativity and innovation, determination, native
+            intelligence, and a sense of fearlessness. Founders create something
+            from nothing. Many entrepreneurship and startup resources talk about
+            founders.
+          </p>
+        </div>
+        <div className="founder-section">
+          <ListCardsFounders />
         </div>
       </div>
     </div>
