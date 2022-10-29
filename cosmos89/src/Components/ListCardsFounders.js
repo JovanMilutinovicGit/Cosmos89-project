@@ -14,7 +14,7 @@ const ListCardsFounders = () => {
       social_media: { fb_img, twitter_img, drbl_img },
     }) => {
       return (
-        <div key={id}>
+        <div className="card-f" key={id}>
           <CardFounders
             name={name}
             last_name={last_name}

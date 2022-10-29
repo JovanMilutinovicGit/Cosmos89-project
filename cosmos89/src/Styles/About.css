@@ -5,6 +5,9 @@
   height: 100%;
 }
 .about-us-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   width: 80%;
   height: 100%;
 }
@@ -92,4 +95,72 @@
 .about-us-founders {
   width: 100%;
   margin: 40px 0;
+}
+
+.founder-section {
+  height: 450px;
+  position: relative;
+}
+
+.founder-section .rec-1,
+.rec-2 {
+  width: 50%;
+  height: 50%;
+}
+
+@media screen and (max-width: 420px) {
+  .about-us-content {
+    width: 95%;
+    height: 100%;
+  }
+
+  .about-us-hero-image {
+    width: 100%;
+    height: 102px;
+    border-radius: 20px;
+    margin: 40px 0;
+  }
+  .rec1,
+  .rec2 {
+    width: 98%;
+    height: 94%;
+  }
+  .image-about {
+    border-radius: 10px;
+  }
+  .about-us-content .title {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 800;
+    font-size: 28px;
+    line-height: 34px;
+  }
+  .about-us-content .desc {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 32px;
+  }
+  .client-happines,
+  .our-philosophy,
+  .cards,
+  .about-us-founders,
+  .founder-section {
+    width: 89%;
+  }
+  .cards {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+  }
+  .card-1,
+  .card-2 {
+    width: 100%;
+    margin: 30px 0;
+  }
+  .founder-section {
+    height: 100%;
+  }
 }
